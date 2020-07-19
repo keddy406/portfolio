@@ -233,7 +233,7 @@ body {
 .img-container {
   /* position: absolute; */
   overflow: hidden;
-  background: linear-gradient(rgba(181, 181, 14, 0.9), rgba(181, 181, 14, 0.9));
+  background: linear-gradient(rgba(161, 161, 150, 0.9), rgba(161, 161, 150, 0.9));
 }
 
 .img-container img {
@@ -249,13 +249,13 @@ body {
 
 .search-link {
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 4rem;
+  font-size: 1.5rem;
 
   transition: margin 0.5s ease-in-out, color 0.5s ease-in-out, opacity 0.75s ease-in-out;
-  margin-top: -50%;
+  /* margin-top: -50%; */
   opacity: 0;
 }
 .search-link a{
